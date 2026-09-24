@@ -1,0 +1,7 @@
+nome = str(input('Digite seu nome completo')).strip()
+print('seu nome é: {}'.format(nome))
+lista = nome.split()
+#print(lista)
+print('primeiro nome:', lista[0])
+print('ultimo nome:', lista[-1])
+#print(('ultimo nome:{}' .format(lista[len(lista)-1])))

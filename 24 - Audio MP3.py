@@ -5,6 +5,7 @@ import pygame
 user = input('Qual seu nome?')
 print('boa tarde! {}, Vamos ouvir uma musica?'.format(user))
 
+pygame.init()
 # 1. Inicializa o motor de áudio
 pygame.mixer.init()
 while True:
@@ -39,6 +40,13 @@ while True:
 
 
 
+#todar diretamente no play de forma simples.
+#pygame.init() #iniciando o pygame
+#pygame.mixer.init() #iniciando motor de audio
+#pygame.mixer.music.load('musicas/mu1.wav') #escolhendo, carregando e tocando a musica escolhida
+#pygame.mixer.music.play()#tocando
+#while pygame.mixer.music.get_busy():
+    #pass
 
 
 
